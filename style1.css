@@ -102,34 +102,35 @@ a.Contact {
 
 img.luka {
     position: relative;
+    z-index: 2;
 }
 
 img.\32 00\+ {
     position: absolute;
-    right: 605px;
+    translate: -645px 0px;
     width: 163px;
 }
 
 img.\31 00m {
     position: absolute;
-    top: 353px;
-    right: 269px;
+    translate: -325px 265px;
     width: 163px;
     height: 163px;
+    z-index: 1;
 }
 
 img.\32 b\+ {
     position: absolute;
     width: 163px;
-    top: 550px;
-    right: 345px;
+    translate: -393px 440px;
+    z-index: 3;
 }
 
 img.\31 0k {
     position: absolute;
     width: 163px;
-    top: 409px;
-    right: 656px;
+    translate: -700px 305px;
+    z-index: 3;
 }
 
 .hero-right i {
@@ -144,8 +145,7 @@ img.\31 0k {
 
 .hero-right .Rectangle {
     position: absolute;
-    right: 44px;
-    top: 130px;
+    translate: 28px 36px;
 }
 
 img.luka {
@@ -165,14 +165,13 @@ img.circle {
 
 img.tiktok {
     position: absolute;
-    top: 900px;
-    right: 280px;
+    translate: -514px 166px;
 }
 
 img.angle {
     position: absolute;
-    top: 97rem;
-    right: 44px;
+    translate: 68px 819px;
+
 }
 .body-left {
     margin-right: 40px;
