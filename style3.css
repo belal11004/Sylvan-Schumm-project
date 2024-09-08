@@ -1,0 +1,264 @@
+
+
+body {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 1440px;
+    
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+
+.logo {
+    font-size: 32px;
+    background-color: white;
+    margin-left: 80px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 0px 0px 20px 20px;
+    color:  #FCA311;
+    font-weight: bold;
+}
+
+a.home {text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    margin-right: 40px;
+    
+}
+a.Case {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+a.Contact {
+    text-decoration: none;
+    margin-right: 80px;
+    background-color: #FCA311;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.home {
+    margin-right: -590px;
+}
+
+    .appointment-container {
+        display: flex;
+        background-color: #EDEDED;
+        position: relative;
+        margin-bottom: 118px;
+    }
+    
+    .appointment-left h1 {
+        font-size: 52px;
+        width: 508px;
+        margin-left: 55px;
+        margin: 0px 55px;
+    }
+    
+    
+    .appointment-left {
+        margin-left: 87px;
+        margin-top: 126px;
+    }
+    .appointment-left img{
+        margin-top: 73px;
+    }
+    
+   
+    .appointment-right {
+        background-color: rgba(255,255,255,0.5);
+        width: 555px;
+        height: 775px;
+        border-radius: 20px;
+        margin-top: 126px;
+        position:absolute;
+        translate: 750px 10px;
+        box-shadow: 5px 5px 5px 5px rgb(131, 131, 131);
+    }
+    
+    .form-container {margin-top: 20px;
+
+    } 
+    
+    .input-group {
+        border: 1px solid;
+        border-radius: 5px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin: 10px 20px 20px;
+        background-color: white;
+        border: none;
+    }
+    
+    .input-group input {
+        border: none;
+        font-size: 18px;
+        border-left: 1px solid;
+        width: 515px;
+        height: 33px;
+        padding-left: 10px;
+    }
+    
+    .input-group i {
+        margin-left: 20px;
+        /* border-right: 1px solid; */
+        padding-right: 12px;
+        font-size: 20px;
+    }
+    
+    .form-group label {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    select#patients {
+    border: none;
+    width: 453px;
+    font-size: 20px;
+    height: 35px;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.select img {
+    margin: 0px 4px 0px 10px;
+}
+select#job {
+    border: none;
+    width: 453px;
+    font-size: 20px;
+    height: 35px;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+select#staff{
+    border: none;
+    width: 453px;
+    font-size: 20px;
+    height: 35px;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+
+
+.form-container a {
+    text-decoration: none;
+    text-align: center;
+    background-color:  #FCA311;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.form-container .btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    width: 555px;
+    z-index: 4;
+}
+
+.img {
+    position: absolute;
+    translate: 292px -19px;
+    z-index: 3;
+}
+.footer-container {
+    display: flex;
+    margin-top: 100px;
+    padding: 80px;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.footer-sylvan h3 {
+
+    font-size: 32px;
+    color: #FCA311;
+    line-height: 0px;
+}
+
+.footer-sylvan p {
+    width: 389px;
+}
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    margin-left: 75px;
+}
+
+.footer-items a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    line-height: 1.7;
+}
+
+.footer-items h3 {
+    font-size: 25px;
+}
+.footer-information h3 {
+    font-size: 25px;
+}
+
+.footer-information i {
+    margin-right: 10px;
+}
+
+.link {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.link a {
+    margin-left: 20px;
+    margin-top: -65px;
+}
+.footer-items a:hover{
+    color: #FCA311;
+
+}
+.firstcard-text {
+    width: 270px;
+    position: absolute;
+    translate: 27px -271px;
+    color: white;
+}
+.copyright {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 9px;
+}

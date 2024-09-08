@@ -1,0 +1,206 @@
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+
+.logo {
+    font-size: 32px;
+    background-color: white;
+    margin-left: 80px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 0px 0px 20px 20px;
+    color:  #FCA311;
+    font-weight: bold;
+}
+
+a.home {text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    margin-right: 40px;
+    
+}
+a.Case {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    color: #FCA311;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+a.Contact {
+    text-decoration: none;
+    margin-right: 80px;
+    background-color: #FCA311;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.home {
+    margin-right: -590px;}
+    .testimonial-container {
+        display: flex;
+        background-color: #EEEEEE;
+        height: 667px;
+        width: 1440px;
+    }
+    
+    .testimonial-laft {
+        margin-left: 100px;
+        margin-top: 90px;
+    }
+    
+    .testimonial-right img {
+        width: 384px;
+        margin-right: 119px;
+        margin-top: 78px;
+        margin: 78px 119px;
+        height: 505px;
+    }
+    
+    .testimonial-laft h1 {
+        font-size: 37px;
+        line-height: 0px;
+    }
+    
+    .testimonial-laft h2 {
+        font-size: 30px;
+        color: #FCA311;
+    }
+    
+    .testimonial-container p {
+        width: 592px;
+        font-size: 20px;
+        margin-bottom: 49px;
+    }
+    
+    .testimonial-laft a {
+        text-decoration: none;
+        background-color: #FCA311;
+        padding: 12px 35px;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .testimonial-laft div {
+        margin-top: 65px;
+    }
+    .row1 {
+        display: flex;
+        margin-bottom: 100px;
+    }
+    
+    .card {
+        width: 310px;
+        margin-right: 100px;
+        
+    }
+    
+    .card-all {
+        padding-left: 200px;
+        position: relative;
+    }
+    
+    .card img {
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .card-text {
+        color: white;
+        width: 270px;
+        position: absolute;
+        translate: 27px -146px;
+    }
+    
+    .Casre-Studies h1 {
+        font-size: 40px;
+        text-align: center;
+        margin:60px 0px; 
+        margin-left: 100px;
+    }
+    
+
+    section {
+        width: 1440px;
+    }
+    
+    img.circle {
+        position: absolute;
+        translate: 114% -100%;
+    }
+    .footer-container {
+        display: flex;
+        margin-top: 100px;
+        padding: 80px;
+    }
+    
+    .footer-sylvan h3 {
+        font-size: 32px;
+        color: #FCA311;
+        line-height: 0px;
+    }
+    
+    .footer-sylvan p {
+        width: 389px;
+    }
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+        width:200px;
+        margin-left: 75px;
+    }
+    
+    .footer-items a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        line-height: 1.7;
+    }
+    
+    .footer-items h3 {
+        font-size: 25px;
+    }
+    .footer-information h3 {
+        font-size: 25px;
+    }
+    
+    .footer-information i {
+        margin-right: 10px;
+    }
+    
+    .link {
+        display: flex;
+        justify-content: end;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .link a {
+        margin-left: 20px;
+        margin-top: -65px;
+    }
+    .footer-items a:hover{
+        color: #FCA311;
+    
+    }
+    .firstcard-text {
+        width: 270px;
+        position: absolute;
+        translate: 27px -271px;
+        color: white;
+    }
+    .copyright {
+        text-align: center;
+        background-color: #333333;
+        color: white;
+        padding: 9px;
+    }
+    
